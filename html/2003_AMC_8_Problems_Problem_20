@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2003 AMC 8 Problems/Problem 20 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2003_AMC_8_Problems/Problem_20","wgTitle":"2003 AMC 8 Problems/Problem 20","wgCurRevisionId":72481,"wgRevisionId":72481,"wgArticleId":10486,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2003_AMC_8_Problems/Problem_20","wgRelevantArticleId":10486,"wgRequestId":"21624250149271c4a02d8cf6","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@1l3o8u3",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2003_AMC_8_Problems_Problem_20 rootpage-2003_AMC_8_Problems_Problem_20 skin-aops2 action-view resources">
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+            <div id="top-bar" class="sharedsite-wrapper">
+              <div class="sharedsitebar">
+                <a href="https://artofproblemsolving.com" class="mobile-title"></a>
+                <div class="sharedsite-links">
+                  <a class="site main" href="https://artofproblemsolving.com">
+                    Art of Problem Solving
+                  </a>
+                  <a class="site selected" href="https://artofproblemsolving.com/online" title="aops-online">
+                    <img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+                    <span class="site-name">AoPS Online</span>
+                  </a>
+                  <a class="site" href="https://beastacademy.com" title="beast-academy">
+                    <img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+                    <span class="site-name">Beast Academy</span>
+                  </a>
+                  <a class="site" href="https://aopsacademy.org" title="aops-academy">
+                    <img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+                    <span class="site-name">AoPS Academy</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+						<!--
+						<a href="https://artofproblemsolving.com/online?login=/wiki">Sign In</a>
+						-->
+                                          </div>
+
+                                      </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <div class="menubar-label-link-outer">
+                        <a class="menubar-label-link" href="/school">
+                          online classes
+                        </a>
+                      </div>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                                              <a href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+                          <a href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+                          <a href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+                          <a href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+                          <a href="/https://artofproblemsolving.comschool/woot"> WOOT Courses </a>
+                          <a href="https://artofproblemsolving.com/school/handbook/prospective"
+                           >
+                            School Handbook </a>
+                          <a href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <div class="menubar-label-link-outer">
+                        <a class="menubar-label-link" href="/store">
+                          bookstore
+                        </a>
+                      </div>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <div class="menubar-label-link-outer">
+                        <a class="menubar-label-link" href="/community">
+                          community
+                        </a>
+                      </div>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+                      <div class="menubar-label-link-outer">
+                        <a class="menubar-label-link selected" href="/resources">
+                          resources
+                        </a>
+                      </div>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                          <a href="https://artofproblemsolving.com/alcumus">Alcumus</a>
+                          <a href="https://artofproblemsolving.com/polymath">MIT PRIMES/AoPS CrowdMath</a>
+                          <a href="https://artofproblemsolving.com/videos">Videos</a>
+                          <a href="https://artofproblemsolving.com/ftw">For the Win!</a>
+                          <a href="https://artofproblemsolving.com/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                          <a href="https://artofproblemsolving.com/reaper">Reaper</a>
+                          <a href="https://artofproblemsolving.com/greedcontrol">Greed Control</a>
+                          <a href="https://artofproblemsolving.com/articles">Articles</a>
+                          <a href="https://artofproblemsolving.com/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                          <a href="https://artofproblemsolving.com/texer">TeXeR</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2003 AMC 8 Problems/Problem 20																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2003_AMC_8_Problems/Problem_20" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2003_AMC_8_Problems/Problem_20&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2003_AMC_8_Problems/Problem_20&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2003_AMC_8_Problems/Problem_20&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2003_AMC_8_Problems/Problem_20" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+	<div id="main-column" style="margin-top:10px">
+				<div id="mw-js-message" style="display:none;"></div>
+		<h1 id="firstHeading" class="firstHeading">2003 AMC 8 Problems/Problem 20</h1>
+
+				
+		<div class="mw-body">
+									
+			<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>What is the measure of the acute angle formed by the hands of the clock at 4:20 PM?
+</p><p><img src="//latex.artofproblemsolving.com/4/1/e/41ea10b8cef4211a38df7a102fee10b3702a2dd5.png" class="latex" alt="$\textbf{(A)}\ 0 \qquad \textbf{(B)}\ 5 \qquad \textbf{(C)}\ 8 \qquad \textbf{(D)}\ 10 \qquad \textbf{(E)}\ 12$" style="vertical-align: -4px" width="366" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Imagine the clock as a circle. The minute hand will be at the 4 at 20 minutes past the  hour. The central angle formed between <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> is <img src="//latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" /> degrees (since it is 1/12 of a full circle, 360). By <img src="//latex.artofproblemsolving.com/7/6/a/76a43f9c7edfef0c956368e0264eb46b66713c2c.png" class="latex" alt="$4:20$" style="vertical-align: 0px" width="41" height="13" />, the hour hand would have moved <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" /> way from 4 to 5 since <img src="//latex.artofproblemsolving.com/7/d/3/7d3893ccff436d7b967571cb960efd8d80f555e7.png" class="latex" alt="$\frac{20}{60}$" style="vertical-align: -12px" width="20" height="37" /> is reducible to <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" />. One third of the way from 4 to 5 is one third of 30 degrees, which is 10 degrees past the 4. Recall that the minute hand is at the 4, so the angle between them is <img src="//latex.artofproblemsolving.com/c/d/7/cd7ae6c302dec5c5be789f3d4d9be37d000d0772.png" class="latex" alt="$\boxed{10}$" style="vertical-align: -5px" width="30" height="23" />, and we are done.
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2003_AMC_8" title="2003 AMC 8">2003 AMC 8</a></b> (<b><a href="/wiki/index.php/2003_AMC_8_Problems" title="2003 AMC 8 Problems">Problems</a></b> • <b><a href="/wiki/index.php/2003_AMC_8_Answer_Key" title="2003 AMC 8 Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=42&amp;year=2003">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_8_Problems/Problem_19" title="2003 AMC 8 Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_8_Problems/Problem_21" title="2003 AMC 8 Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2003_AMC_8_Problems/Problem_1" title="2003 AMC 8 Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_2" title="2003 AMC 8 Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_3" title="2003 AMC 8 Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_4" title="2003 AMC 8 Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_5" title="2003 AMC 8 Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_6" title="2003 AMC 8 Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_7" title="2003 AMC 8 Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_8" title="2003 AMC 8 Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_9" title="2003 AMC 8 Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_10" title="2003 AMC 8 Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_11" title="2003 AMC 8 Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_12" title="2003 AMC 8 Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_13" title="2003 AMC 8 Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_14" title="2003 AMC 8 Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_15" title="2003 AMC 8 Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_16" title="2003 AMC 8 Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_17" title="2003 AMC 8 Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_18" title="2003 AMC 8 Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_19" title="2003 AMC 8 Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_21" title="2003 AMC 8 Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_22" title="2003 AMC 8 Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_23" title="2003 AMC 8 Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_24" title="2003 AMC 8 Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_8_Problems/Problem_25" title="2003 AMC 8 Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_8_Problems_and_Solutions" title="AMC 8 Problems and Solutions"> All AJHSME/AMC 8 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20190211020140
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.073 seconds
+Real time usage: 0.077 seconds
+Preprocessor visited node count: 143/1000000
+Preprocessor generated node count: 454/1000000
+Post‐expand include size: 2161/2097152 bytes
+Template argument size: 132/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1636/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.244      1 -total
+ 60.93%    5.023      1 Template:AMC8_box
+ 35.67%    2.941      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:10486-0!canonical and timestamp 20190211020140 and revision id 72481
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_20&amp;oldid=72481">https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_20&amp;oldid=72481</a>"</div>
+
+
+							<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+			
+
+					</div>
+
+
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an&nbsp;
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="/company/staff">Our Team</a>
+          <a class="link" href="/company/history">Our History</a>
+          <a class="link" href="/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="/company/tos">Terms</a>
+          <a class="link" href="/company/privacy">Privacy</a>
+          <a class="link" href="/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://artofproblemsolving.com/community/wechat">
+                <img src="/assets/images/socialmedia/wechat.svg" class="sm-icon"/>
+              </a>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2019 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2019 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2019 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20190211022456 -->
+</html>
